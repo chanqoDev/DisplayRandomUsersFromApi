@@ -5,8 +5,7 @@ const FetchRandomData = () => {
     .get("https://randomuser.me/api/")
     .then(({ data }) => {
       // handle success
-      console.log(data);
-      return JSON.stringify(data);
+      return data;
     })
     .catch((err) => {
       // handle error
