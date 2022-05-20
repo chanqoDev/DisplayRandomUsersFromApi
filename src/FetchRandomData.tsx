@@ -3,17 +3,14 @@ import axios from "axios";
 const FetchRandomData = () => {
   return axios
     .get("https://randomuser.me/api/")
-    .then((res) => {
+    .then(({ data }) => {
       // handle success
-      console.log(res);
-      return res;
+      console.log(data);
+      return JSON.stringify(data);
     })
     .catch((err) => {
       // handle error
       console.error(err);
-    })
-    .then(() => {
-      // always executed
     });
 };
 
