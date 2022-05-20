@@ -1,6 +1,9 @@
-import React from "react";
+import * as React from "react";
 import "./App.css";
+import FetchRandomData from "./FetchRandomData";
+
 const { useState } = React;
+//https://randomuser.me/api/
 
 function App() {
   const [counter, setCounter] = useState(0);
@@ -14,6 +17,13 @@ function App() {
         }}
       >
         Increase Counter{" "}
+      </button>
+      <button
+        onClick={() => {
+          FetchRandomData();
+        }}
+      >
+        Fetch Random Data{" "}
       </button>
     </div>
   );
