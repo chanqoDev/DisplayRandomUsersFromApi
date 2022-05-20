@@ -69,7 +69,11 @@ function App() {
       {userInfos.map((userInfo: UserInfo, idx: number) => (
         <div key={idx}>
           <p>{getFullUserName(userInfo)}</p>
-          <img src={userInfo.picture.thumbnail} alt={"Person Mugshot"} />
+          <img
+            src={userInfo.picture.thumbnail}
+            alt={"Person Mugshot"}
+            style={{ width: "140px", height: "auto" }}
+          />
         </div>
       ))}
       <pre>{randomUserDataJSON}</pre>
