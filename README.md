@@ -4,14 +4,11 @@ https://randomuser.me/documentation#pagination
 
 Display a randomUser at each button Click and load pagination to ensure new users populate each time button is pressed.
 
+find live site her : https://neon-marshmallow-cf3bb2.netlify.app
 
 <img width="1540" alt="homepagesample" src="https://user-images.githubusercontent.com/8496716/169563062-cf75ed16-f1b0-4974-936d-5cae66c905c5.png">
 
-
-
-
-
-## Getting Started with Create React App & Typescript (axios to fetch data) 
+## Getting Started with Create React App & Typescript (axios to fetch data)
 
 create-react-app --template --typescript
 
